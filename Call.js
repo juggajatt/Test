@@ -1,6 +1,6 @@
 function get_json(Test.json) {
 	var requester = create_http_request();
-	requester.open("GET", file_name, false);
+	requester.open("GET", Test.json, false);
 	
 	requester.send(null);
 	var json_text = requester.responseText;
