@@ -1,4 +1,4 @@
-function get_json(file_name) {
+function get_json(Test.json) {
 	var requester = create_http_request();
 	requester.open("GET", file_name, false);
 	
